@@ -1,0 +1,134 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Main Container */
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 2.5rem;
+    color: #0078d7;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #0056a3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraphs */
+  p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Form Styling */
+  form {
+    margin-top: 20px;
+  }
+  
+  /* Form Groups */
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  /* Labels */
+  label {
+    font-size: 0.9rem;
+    color: #444;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Text Inputs and Textareas */
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #0078d7;
+    box-shadow: 0 0 5px rgba(0, 120, 215, 0.5);
+  }
+  
+  /* Checkboxes and Radio Buttons */
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Select Dropdown */
+  select {
+    appearance: none;
+    background: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M7%2010l5%205%205-5z%22%20fill%3D%22%23333%22/%3E%3C/svg%3E') no-repeat right 10px center;
+    background-size: 10px;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #0078d7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056a3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

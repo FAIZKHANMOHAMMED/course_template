@@ -1,0 +1,63 @@
+{
+  "header": "1st try",
+  "content": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Introduction"
+    },
+    {
+      "type": "paragraph",
+      "text": "course paragraph will be here "
+    },
+    {
+      "type": "form",
+      "elements": [
+        {
+          "type": "text",
+          "label": "Your Name",
+          "placeholder": "Enter your name"
+        },
+        {
+          "type": "email",
+          "label": "Your Email",
+          "placeholder": "Enter your email"
+        },
+        {
+          "type": "checkbox",
+          "label": "can add anything",
+          "name": "can add anyr=thing",
+          "checked": false
+        },
+        {
+          "type": "radio",
+          "label": "Gender",
+          "name": "gender",
+          "options": [
+            { "value": "male", "label": "Male" },
+            { "value": "female", "label": "Female" }
+          ]
+        },
+        {
+          "type": "select",
+          "label": "Select your country",
+          "options": [
+            { "value": "us", "label": "United States" },
+            { "value": "in", "label": "India" },
+            { "value": "uk", "label": "United Kingdom" }
+          ]
+        },
+        {
+          "type": "textarea",
+          "label": "Your Message",
+          "placeholder": "this box is for feedback"
+        },
+        {
+          "type": "button",
+          "text": "Submit",
+          "action": "alert('Form Submitted!')"
+        }
+      ]
+    }
+  ]
+}
